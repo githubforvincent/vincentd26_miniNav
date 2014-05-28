@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12313EE11936026300E8E1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12313EE01936026300E8E1A3 /* Foundation.framework */; };
+		12313EE31936026300E8E1A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12313EE21936026300E8E1A3 /* CoreGraphics.framework */; };
+		12313EE51936026300E8E1A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12313EE41936026300E8E1A3 /* UIKit.framework */; };
+		12313EEB1936026400E8E1A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12313EE91936026400E8E1A3 /* InfoPlist.strings */; };
+		12313EED1936026400E8E1A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12313EEC1936026400E8E1A3 /* main.m */; };
+		12313EF11936026400E8E1A3 /* VDEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12313EF01936026400E8E1A3 /* VDEAppDelegate.m */; };
+		12313EF41936026400E8E1A3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12313EF21936026400E8E1A3 /* Main_iPhone.storyboard */; };
+		12313EF71936026400E8E1A3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12313EF51936026400E8E1A3 /* Main_iPad.storyboard */; };
+		12313EFA1936026400E8E1A3 /* VDEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12313EF91936026400E8E1A3 /* VDEViewController.m */; };
+		12313EFC1936026400E8E1A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12313EFB1936026400E8E1A3 /* Images.xcassets */; };
+		12313F031936026400E8E1A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12313F021936026400E8E1A3 /* XCTest.framework */; };
+		12313F041936026400E8E1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12313EE01936026300E8E1A3 /* Foundation.framework */; };
+		12313F051936026400E8E1A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12313EE41936026300E8E1A3 /* UIKit.framework */; };
+		12313F0D1936026400E8E1A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12313F0B1936026400E8E1A3 /* InfoPlist.strings */; };
+		12313F0F1936026400E8E1A3 /* vincentd26_miniNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12313F0E1936026400E8E1A3 /* vincentd26_miniNavTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12313F061936026400E8E1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12313ED51936026300E8E1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12313EDC1936026300E8E1A3;
+			remoteInfo = vincentd26_miniNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12313EDD1936026300E8E1A3 /* vincentd26_miniNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vincentd26_miniNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12313EE01936026300E8E1A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12313EE21936026300E8E1A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		12313EE41936026300E8E1A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12313EE81936026400E8E1A3 /* vincentd26_miniNav-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vincentd26_miniNav-Info.plist"; sourceTree = "<group>"; };
+		12313EEA1936026400E8E1A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12313EEC1936026400E8E1A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12313EEE1936026400E8E1A3 /* vincentd26_miniNav-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vincentd26_miniNav-Prefix.pch"; sourceTree = "<group>"; };
+		12313EEF1936026400E8E1A3 /* VDEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDEAppDelegate.h; sourceTree = "<group>"; };
+		12313EF01936026400E8E1A3 /* VDEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDEAppDelegate.m; sourceTree = "<group>"; };
+		12313EF31936026400E8E1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		12313EF61936026400E8E1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		12313EF81936026400E8E1A3 /* VDEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDEViewController.h; sourceTree = "<group>"; };
+		12313EF91936026400E8E1A3 /* VDEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDEViewController.m; sourceTree = "<group>"; };
+		12313EFB1936026400E8E1A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12313F011936026400E8E1A3 /* vincentd26_miniNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vincentd26_miniNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12313F021936026400E8E1A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		12313F0A1936026400E8E1A3 /* vincentd26_miniNavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vincentd26_miniNavTests-Info.plist"; sourceTree = "<group>"; };
+		12313F0C1936026400E8E1A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12313F0E1936026400E8E1A3 /* vincentd26_miniNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vincentd26_miniNavTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12313EDA1936026300E8E1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12313EE31936026300E8E1A3 /* CoreGraphics.framework in Frameworks */,
+				12313EE51936026300E8E1A3 /* UIKit.framework in Frameworks */,
+				12313EE11936026300E8E1A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12313EFE1936026400E8E1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12313F031936026400E8E1A3 /* XCTest.framework in Frameworks */,
+				12313F051936026400E8E1A3 /* UIKit.framework in Frameworks */,
+				12313F041936026400E8E1A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12313ED41936026300E8E1A3 = {
+			isa = PBXGroup;
+			children = (
+				12313EE61936026300E8E1A3 /* vincentd26_miniNav */,
+				12313F081936026400E8E1A3 /* vincentd26_miniNavTests */,
+				12313EDF1936026300E8E1A3 /* Frameworks */,
+				12313EDE1936026300E8E1A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12313EDE1936026300E8E1A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12313EDD1936026300E8E1A3 /* vincentd26_miniNav.app */,
+				12313F011936026400E8E1A3 /* vincentd26_miniNavTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12313EDF1936026300E8E1A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12313EE01936026300E8E1A3 /* Foundation.framework */,
+				12313EE21936026300E8E1A3 /* CoreGraphics.framework */,
+				12313EE41936026300E8E1A3 /* UIKit.framework */,
+				12313F021936026400E8E1A3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12313EE61936026300E8E1A3 /* vincentd26_miniNav */ = {
+			isa = PBXGroup;
+			children = (
+				12313EEF1936026400E8E1A3 /* VDEAppDelegate.h */,
+				12313EF01936026400E8E1A3 /* VDEAppDelegate.m */,
+				12313EF21936026400E8E1A3 /* Main_iPhone.storyboard */,
+				12313EF51936026400E8E1A3 /* Main_iPad.storyboard */,
+				12313EF81936026400E8E1A3 /* VDEViewController.h */,
+				12313EF91936026400E8E1A3 /* VDEViewController.m */,
+				12313EFB1936026400E8E1A3 /* Images.xcassets */,
+				12313EE71936026400E8E1A3 /* Supporting Files */,
+			);
+			path = vincentd26_miniNav;
+			sourceTree = "<group>";
+		};
+		12313EE71936026400E8E1A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12313EE81936026400E8E1A3 /* vincentd26_miniNav-Info.plist */,
+				12313EE91936026400E8E1A3 /* InfoPlist.strings */,
+				12313EEC1936026400E8E1A3 /* main.m */,
+				12313EEE1936026400E8E1A3 /* vincentd26_miniNav-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12313F081936026400E8E1A3 /* vincentd26_miniNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				12313F0E1936026400E8E1A3 /* vincentd26_miniNavTests.m */,
+				12313F091936026400E8E1A3 /* Supporting Files */,
+			);
+			path = vincentd26_miniNavTests;
+			sourceTree = "<group>";
+		};
+		12313F091936026400E8E1A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12313F0A1936026400E8E1A3 /* vincentd26_miniNavTests-Info.plist */,
+				12313F0B1936026400E8E1A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12313EDC1936026300E8E1A3 /* vincentd26_miniNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12313F121936026400E8E1A3 /* Build configuration list for PBXNativeTarget "vincentd26_miniNav" */;
+			buildPhases = (
+				12313ED91936026300E8E1A3 /* Sources */,
+				12313EDA1936026300E8E1A3 /* Frameworks */,
+				12313EDB1936026300E8E1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vincentd26_miniNav;
+			productName = vincentd26_miniNav;
+			productReference = 12313EDD1936026300E8E1A3 /* vincentd26_miniNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12313F001936026400E8E1A3 /* vincentd26_miniNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12313F151936026400E8E1A3 /* Build configuration list for PBXNativeTarget "vincentd26_miniNavTests" */;
+			buildPhases = (
+				12313EFD1936026400E8E1A3 /* Sources */,
+				12313EFE1936026400E8E1A3 /* Frameworks */,
+				12313EFF1936026400E8E1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12313F071936026400E8E1A3 /* PBXTargetDependency */,
+			);
+			name = vincentd26_miniNavTests;
+			productName = vincentd26_miniNavTests;
+			productReference = 12313F011936026400E8E1A3 /* vincentd26_miniNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12313ED51936026300E8E1A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VDE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.striato;
+				TargetAttributes = {
+					12313F001936026400E8E1A3 = {
+						TestTargetID = 12313EDC1936026300E8E1A3;
+					};
+				};
+			};
+			buildConfigurationList = 12313ED81936026300E8E1A3 /* Build configuration list for PBXProject "vincentd26_miniNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12313ED41936026300E8E1A3;
+			productRefGroup = 12313EDE1936026300E8E1A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12313EDC1936026300E8E1A3 /* vincentd26_miniNav */,
+				12313F001936026400E8E1A3 /* vincentd26_miniNavTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12313EDB1936026300E8E1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12313EF71936026400E8E1A3 /* Main_iPad.storyboard in Resources */,
+				12313EFC1936026400E8E1A3 /* Images.xcassets in Resources */,
+				12313EF41936026400E8E1A3 /* Main_iPhone.storyboard in Resources */,
+				12313EEB1936026400E8E1A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12313EFF1936026400E8E1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12313F0D1936026400E8E1A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12313ED91936026300E8E1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12313EF11936026400E8E1A3 /* VDEAppDelegate.m in Sources */,
+				12313EED1936026400E8E1A3 /* main.m in Sources */,
+				12313EFA1936026400E8E1A3 /* VDEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12313EFD1936026400E8E1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12313F0F1936026400E8E1A3 /* vincentd26_miniNavTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12313F071936026400E8E1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12313EDC1936026300E8E1A3 /* vincentd26_miniNav */;
+			targetProxy = 12313F061936026400E8E1A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12313EE91936026400E8E1A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12313EEA1936026400E8E1A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		12313EF21936026400E8E1A3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12313EF31936026400E8E1A3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		12313EF51936026400E8E1A3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12313EF61936026400E8E1A3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		12313F0B1936026400E8E1A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12313F0C1936026400E8E1A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12313F101936026400E8E1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12313F111936026400E8E1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12313F131936026400E8E1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vincentd26_miniNav/vincentd26_miniNav-Prefix.pch";
+				INFOPLIST_FILE = "vincentd26_miniNav/vincentd26_miniNav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		12313F141936026400E8E1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vincentd26_miniNav/vincentd26_miniNav-Prefix.pch";
+				INFOPLIST_FILE = "vincentd26_miniNav/vincentd26_miniNav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		12313F161936026400E8E1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vincentd26_miniNav.app/vincentd26_miniNav";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vincentd26_miniNav/vincentd26_miniNav-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "vincentd26_miniNavTests/vincentd26_miniNavTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		12313F171936026400E8E1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vincentd26_miniNav.app/vincentd26_miniNav";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vincentd26_miniNav/vincentd26_miniNav-Prefix.pch";
+				INFOPLIST_FILE = "vincentd26_miniNavTests/vincentd26_miniNavTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12313ED81936026300E8E1A3 /* Build configuration list for PBXProject "vincentd26_miniNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12313F101936026400E8E1A3 /* Debug */,
+				12313F111936026400E8E1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12313F121936026400E8E1A3 /* Build configuration list for PBXNativeTarget "vincentd26_miniNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12313F131936026400E8E1A3 /* Debug */,
+				12313F141936026400E8E1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12313F151936026400E8E1A3 /* Build configuration list for PBXNativeTarget "vincentd26_miniNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12313F161936026400E8E1A3 /* Debug */,
+				12313F171936026400E8E1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12313ED51936026300E8E1A3 /* Project object */;
+}
