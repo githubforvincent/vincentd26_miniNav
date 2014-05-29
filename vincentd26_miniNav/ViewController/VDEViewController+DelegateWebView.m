@@ -35,7 +35,14 @@
 -(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
   //--------------------------------------------------------------------------------------------------------
   
-  //error when loading
+  
+  // Trouvé sur stackoverflow pour reperer une chaine dans une autre
+  if (!([error.localizedDescription rangeOfString:@"-999"].location >1000)) {
+    // error -999, so the alert view is not displayed
+     return;
+  }
+  
+  //error when loading 
   theLoadingErrorAlert = [[UIAlertView alloc] initWithTitle:@"Erreur lors du chargement"
                                                     message:error.localizedDescription
                                                    delegate:self
@@ -47,6 +54,8 @@
   
   //remove overlay
   [self webViewDidFinishLoad:theWebView];
+  
+ 
 }
 
 //--------------------------------------------------------------------------------------------------------
@@ -55,6 +64,8 @@
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
   //--------------------------------------------------------------------------------------------------------
+  
+
   
   if ( alertView == theURLInputAlert ) {
     if(buttonIndex == 1) { // OK seleted
@@ -71,7 +82,6 @@
       [self.theDataController modifyTheHomePageWith: theAlertView.text];
     }
   }
-  
   
 }
 

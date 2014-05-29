@@ -22,6 +22,8 @@
   UIBarButtonItem *theFlexibleSpaceBar;
   UIBarButtonItem *theFixedSpaceBar;
   
+
+  
   UIAlertView     *theURLInputAlert;
   UIAlertView     *theURLHomePageEditionAlert;
   UIAlertView     *theLoadingErrorAlert;
@@ -32,6 +34,8 @@
   UIActivityIndicatorView *theActivityIndicator;
   
   NSURLRequest    *theRequestedURL;
+  
+  NSString  * test;
   
 }
 
@@ -75,6 +79,7 @@
 
 -(void) editHomePage;
 
+-(void) stopLoadingAndRemoveOverlay;
 
 @end
 

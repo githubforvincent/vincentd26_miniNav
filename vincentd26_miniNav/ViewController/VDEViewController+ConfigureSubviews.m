@@ -64,11 +64,14 @@
 //--------------------------------------------------------------------------------------------------------
   theWebView = [[UIWebView alloc] init];
   [theWebView setDelegate:self];
+  [theWebView setScalesPageToFit:YES];
+  
   [[self view] addSubview:theWebView];
   
   // blackScreen when loading a page, display/remove done by the webView delegates
   theWebViewBlackOverlay = [[UIView alloc]init];
   [theWebViewBlackOverlay setBackgroundColor:[UIColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:0.6]];
+  
 
 #pragma mark Toolbar
 //--------------------------------------------------------------------------------------------------------

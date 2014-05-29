@@ -51,7 +51,9 @@
   
   [theWebView setFrame:CGRectMake(theWebViewX, theWebViewY,theWebViewWidth, theWebViewHeight)];
   
-  [theWebViewBlackOverlay setFrame:CGRectMake(0, theWebViewY,theViewWidth, theWebViewHeight)];
+  [theWebViewBlackOverlay setFrame:CGRectMake(theWebViewX, theWebViewY,theWebViewWidth, theWebViewHeight-theToolBarHeight)];
+
+  //[theWebViewBlackOverlay setFrame:CGRectMake(0, theWebViewY,theViewWidth, theWebViewHeight)];
   
   
   [theWebView setNeedsDisplay];

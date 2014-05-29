@@ -10,8 +10,13 @@
 
 @implementation VDEViewController (HandleSubViewsActions)
 
+
+
 -(void) goToHomePage {
 //--------------------------------------------------------------------------------------------------------
+  
+  [self stopLoadingAndRemoveOverlay];
+  
   NSURL* startURL = [NSURL URLWithString: [self.theDataController getTheHomePageURL]];
   theRequestedURL = [NSURLRequest requestWithURL:startURL];
   [theWebView loadRequest:theRequestedURL];
@@ -19,13 +24,19 @@
 
 -(void) goBackPage {
 //--------------------------------------------------------------------------------------------------------
-      if ([theWebView canGoBack]) {
+
+  [self stopLoadingAndRemoveOverlay];
+  
+  if ([theWebView canGoBack]) {
         [theWebView goBack];
       }
 }
 
 -(void) goNextPage {
 //--------------------------------------------------------------------------------------------------------
+  
+  [self stopLoadingAndRemoveOverlay];
+  
   if ([theWebView canGoForward]) {
     [theWebView goForward];
   }
@@ -33,6 +44,9 @@
 
 -(void) selectNewURL {
 //--------------------------------------------------------------------------------------------------------
+  
+  [self stopLoadingAndRemoveOverlay];
+  
   UITextField *theAlertViewPlaceHolder = [theURLInputAlert textFieldAtIndex:0];
   theAlertViewPlaceHolder.text = @"http://";
   [theURLInputAlert show];
@@ -40,7 +54,9 @@
 
 -(void) editHomePage {
 //--------------------------------------------------------------------------------------------------------
- 
+
+  [self stopLoadingAndRemoveOverlay];
+  
   NSString * theCurrentHometPage = [self.theDataController getTheHomePageURL];
   UITextField *theAlertViewPlaceHolder = [theURLHomePageEditionAlert textFieldAtIndex:0];
   theAlertViewPlaceHolder.text =theCurrentHometPage;
@@ -48,5 +64,13 @@
   
 }
 
+-(void ) stopLoadingAndRemoveOverlay {
+//--------------------------------------------------------------------------------------------------------
+  if(theWebView.isLoading) {
+    [theWebView stopLoading];
+    [theActivityIndicator stopAnimating];
+    [theWebViewBlackOverlay removeFromSuperview];
+  }
+}
 
 @end
