@@ -15,13 +15,19 @@
 		12313EF11936026400E8E1A3 /* VDEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12313EF01936026400E8E1A3 /* VDEAppDelegate.m */; };
 		12313EF41936026400E8E1A3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12313EF21936026400E8E1A3 /* Main_iPhone.storyboard */; };
 		12313EF71936026400E8E1A3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12313EF51936026400E8E1A3 /* Main_iPad.storyboard */; };
-		12313EFA1936026400E8E1A3 /* VDEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12313EF91936026400E8E1A3 /* VDEViewController.m */; };
 		12313EFC1936026400E8E1A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12313EFB1936026400E8E1A3 /* Images.xcassets */; };
 		12313F031936026400E8E1A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12313F021936026400E8E1A3 /* XCTest.framework */; };
 		12313F041936026400E8E1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12313EE01936026300E8E1A3 /* Foundation.framework */; };
 		12313F051936026400E8E1A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12313EE41936026300E8E1A3 /* UIKit.framework */; };
 		12313F0D1936026400E8E1A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12313F0B1936026400E8E1A3 /* InfoPlist.strings */; };
 		12313F0F1936026400E8E1A3 /* vincentd26_miniNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12313F0E1936026400E8E1A3 /* vincentd26_miniNavTests.m */; };
+		12313F381936295B00E8E1A3 /* VDEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12313F311936295B00E8E1A3 /* VDEViewController.m */; };
+		12313F391936295B00E8E1A3 /* VDEViewController+ConfigureSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 12313F331936295B00E8E1A3 /* VDEViewController+ConfigureSubviews.m */; };
+		12313F3A1936295B00E8E1A3 /* VDEViewController+DisplaySubViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 12313F351936295B00E8E1A3 /* VDEViewController+DisplaySubViews.m */; };
+		12313F3B1936295B00E8E1A3 /* VDEViewController+HandleSubViewsActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 12313F371936295B00E8E1A3 /* VDEViewController+HandleSubViewsActions.m */; };
+		12AE62DA19367F6200F51A4A /* VDEPageURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AE62D919367F6200F51A4A /* VDEPageURL.m */; };
+		12AE62DE19367FDF00F51A4A /* VDEDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AE62DD19367FDF00F51A4A /* VDEDataController.m */; };
+		12AE62E21936987600F51A4A /* VDEViewController+DelegateWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AE62E11936987600F51A4A /* VDEViewController+DelegateWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +53,26 @@
 		12313EF01936026400E8E1A3 /* VDEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDEAppDelegate.m; sourceTree = "<group>"; };
 		12313EF31936026400E8E1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		12313EF61936026400E8E1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		12313EF81936026400E8E1A3 /* VDEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDEViewController.h; sourceTree = "<group>"; };
-		12313EF91936026400E8E1A3 /* VDEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDEViewController.m; sourceTree = "<group>"; };
 		12313EFB1936026400E8E1A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		12313F011936026400E8E1A3 /* vincentd26_miniNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vincentd26_miniNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12313F021936026400E8E1A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		12313F0A1936026400E8E1A3 /* vincentd26_miniNavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vincentd26_miniNavTests-Info.plist"; sourceTree = "<group>"; };
 		12313F0C1936026400E8E1A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12313F0E1936026400E8E1A3 /* vincentd26_miniNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vincentd26_miniNavTests.m; sourceTree = "<group>"; };
+		12313F301936295B00E8E1A3 /* VDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDEViewController.h; path = ViewController/VDEViewController.h; sourceTree = "<group>"; };
+		12313F311936295B00E8E1A3 /* VDEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDEViewController.m; path = ViewController/VDEViewController.m; sourceTree = "<group>"; };
+		12313F321936295B00E8E1A3 /* VDEViewController+ConfigureSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "VDEViewController+ConfigureSubviews.h"; path = "ViewController/VDEViewController+ConfigureSubviews.h"; sourceTree = "<group>"; };
+		12313F331936295B00E8E1A3 /* VDEViewController+ConfigureSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "VDEViewController+ConfigureSubviews.m"; path = "ViewController/VDEViewController+ConfigureSubviews.m"; sourceTree = "<group>"; };
+		12313F341936295B00E8E1A3 /* VDEViewController+DisplaySubViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "VDEViewController+DisplaySubViews.h"; path = "ViewController/VDEViewController+DisplaySubViews.h"; sourceTree = "<group>"; };
+		12313F351936295B00E8E1A3 /* VDEViewController+DisplaySubViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "VDEViewController+DisplaySubViews.m"; path = "ViewController/VDEViewController+DisplaySubViews.m"; sourceTree = "<group>"; };
+		12313F361936295B00E8E1A3 /* VDEViewController+HandleSubViewsActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "VDEViewController+HandleSubViewsActions.h"; path = "ViewController/VDEViewController+HandleSubViewsActions.h"; sourceTree = "<group>"; };
+		12313F371936295B00E8E1A3 /* VDEViewController+HandleSubViewsActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "VDEViewController+HandleSubViewsActions.m"; path = "ViewController/VDEViewController+HandleSubViewsActions.m"; sourceTree = "<group>"; };
+		12AE62D819367F6200F51A4A /* VDEPageURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDEPageURL.h; path = Model/VDEPageURL.h; sourceTree = "<group>"; };
+		12AE62D919367F6200F51A4A /* VDEPageURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDEPageURL.m; path = Model/VDEPageURL.m; sourceTree = "<group>"; };
+		12AE62DC19367FDF00F51A4A /* VDEDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDEDataController.h; path = vincentd26_miniNav/Controller/VDEDataController.h; sourceTree = "<group>"; };
+		12AE62DD19367FDF00F51A4A /* VDEDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDEDataController.m; path = vincentd26_miniNav/Controller/VDEDataController.m; sourceTree = "<group>"; };
+		12AE62E01936987600F51A4A /* VDEViewController+DelegateWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "VDEViewController+DelegateWebView.h"; path = "ViewController/VDEViewController+DelegateWebView.h"; sourceTree = "<group>"; };
+		12AE62E11936987600F51A4A /* VDEViewController+DelegateWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "VDEViewController+DelegateWebView.m"; path = "ViewController/VDEViewController+DelegateWebView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +132,13 @@
 		12313EE61936026300E8E1A3 /* vincentd26_miniNav */ = {
 			isa = PBXGroup;
 			children = (
+				12AE62DB19367F6F00F51A4A /* Model */,
+				12313F1B19360D4F00E8E1A3 /* View */,
+				12AE62DF19367FE300F51A4A /* Controller */,
 				12313EEF1936026400E8E1A3 /* VDEAppDelegate.h */,
 				12313EF01936026400E8E1A3 /* VDEAppDelegate.m */,
 				12313EF21936026400E8E1A3 /* Main_iPhone.storyboard */,
 				12313EF51936026400E8E1A3 /* Main_iPad.storyboard */,
-				12313EF81936026400E8E1A3 /* VDEViewController.h */,
-				12313EF91936026400E8E1A3 /* VDEViewController.m */,
 				12313EFB1936026400E8E1A3 /* Images.xcassets */,
 				12313EE71936026400E8E1A3 /* Supporting Files */,
 			);
@@ -153,6 +172,50 @@
 				12313F0B1936026400E8E1A3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12313F1B19360D4F00E8E1A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12313F301936295B00E8E1A3 /* VDEViewController.h */,
+				12313F311936295B00E8E1A3 /* VDEViewController.m */,
+				12313F2F19361C4D00E8E1A3 /* Categories */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		12313F2F19361C4D00E8E1A3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				12313F321936295B00E8E1A3 /* VDEViewController+ConfigureSubviews.h */,
+				12313F331936295B00E8E1A3 /* VDEViewController+ConfigureSubviews.m */,
+				12313F341936295B00E8E1A3 /* VDEViewController+DisplaySubViews.h */,
+				12313F351936295B00E8E1A3 /* VDEViewController+DisplaySubViews.m */,
+				12313F361936295B00E8E1A3 /* VDEViewController+HandleSubViewsActions.h */,
+				12313F371936295B00E8E1A3 /* VDEViewController+HandleSubViewsActions.m */,
+				12AE62E01936987600F51A4A /* VDEViewController+DelegateWebView.h */,
+				12AE62E11936987600F51A4A /* VDEViewController+DelegateWebView.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		12AE62DB19367F6F00F51A4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12AE62D819367F6200F51A4A /* VDEPageURL.h */,
+				12AE62D919367F6200F51A4A /* VDEPageURL.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		12AE62DF19367FE300F51A4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12AE62DC19367FDF00F51A4A /* VDEDataController.h */,
+				12AE62DD19367FDF00F51A4A /* VDEDataController.m */,
+			);
+			name = Controller;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +266,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = com.striato;
 				TargetAttributes = {
+					12313EDC1936026300E8E1A3 = {
+						DevelopmentTeam = MH46U8UNPT;
+					};
 					12313F001936026400E8E1A3 = {
 						TestTargetID = 12313EDC1936026300E8E1A3;
 					};
@@ -254,9 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12313F391936295B00E8E1A3 /* VDEViewController+ConfigureSubviews.m in Sources */,
+				12AE62DA19367F6200F51A4A /* VDEPageURL.m in Sources */,
 				12313EF11936026400E8E1A3 /* VDEAppDelegate.m in Sources */,
+				12AE62DE19367FDF00F51A4A /* VDEDataController.m in Sources */,
 				12313EED1936026400E8E1A3 /* main.m in Sources */,
-				12313EFA1936026400E8E1A3 /* VDEViewController.m in Sources */,
+				12AE62E21936987600F51A4A /* VDEViewController+DelegateWebView.m in Sources */,
+				12313F381936295B00E8E1A3 /* VDEViewController.m in Sources */,
+				12313F3A1936295B00E8E1A3 /* VDEViewController+DisplaySubViews.m in Sources */,
+				12313F3B1936295B00E8E1A3 /* VDEViewController+HandleSubViewsActions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,10 +463,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "vincentd26_miniNav/vincentd26_miniNav-Prefix.pch";
 				INFOPLIST_FILE = "vincentd26_miniNav/vincentd26_miniNav-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,10 +479,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "vincentd26_miniNav/vincentd26_miniNav-Prefix.pch";
 				INFOPLIST_FILE = "vincentd26_miniNav/vincentd26_miniNav-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +549,7 @@
 				12313F141936026400E8E1A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12313F151936026400E8E1A3 /* Build configuration list for PBXNativeTarget "vincentd26_miniNavTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +558,7 @@
 				12313F171936026400E8E1A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

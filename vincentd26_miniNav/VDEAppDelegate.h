@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VDEDataController.h"
 
 @interface VDEAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIWindow          *window;
+@property (strong, nonatomic) VDEDataController *theDataController;
 
 @end
